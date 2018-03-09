@@ -1,0 +1,1426 @@
+03-07 00:12:57 630 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:14:14 250 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:15:30 929 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:16:47 956 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:18:04 795 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:19:21 854 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:20:38 673 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:21:55 668 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:23:12 641 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:24:29 548 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:25:46 360 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:27:03 072 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:28:20 050 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:29:37 105 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:30:53 887 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:32:10 934 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:33:27 802 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:34:44 805 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:36:01 627 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:37:18 364 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:38:35 030 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:39:51 857 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:41:08 636 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:42:25 377 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:43:42 401 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:44:59 289 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:46:15 966 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:47:32 845 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:48:49 625 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:50:06 622 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:51:23 461 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:52:40 117 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:53:56 802 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:55:13 547 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:56:30 336 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:57:47 058 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 00:59:03 957 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:00:21 015 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:01:37 988 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:02:54 708 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:04:11 410 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:05:28 862 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:06:45 732 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:08:02 462 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:09:19 127 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:10:35 907 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:11:52 832 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:13:09 851 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:14:26 701 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:15:43 360 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:17:00 175 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:18:16 961 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:19:34 037 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:20:50 991 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:22:07 851 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:23:24 689 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:24:41 689 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:25:58 628 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:27:15 412 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:28:32 309 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:29:49 162 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:31:05 937 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:32:22 752 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:33:39 448 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:34:56 400 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:36:13 169 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:37:30 066 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:38:46 799 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:40:03 562 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:41:20 415 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:42:37 213 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:43:53 943 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:45:10 746 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:46:27 733 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:47:44 805 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:49:01 541 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:50:18 208 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:51:35 191 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:52:51 920 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:54:08 685 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:55:25 662 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:56:42 736 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:57:59 744 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 01:59:16 708 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 02:00:33 716 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 02:30:22 278 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 05:01:59 013 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 07:51:22 071 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:27 136 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:28 311 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:29 270 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:30 156 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:31 251 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:32 367 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:33 299 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:34 172 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:35 049 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:36 166 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:37 304 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:38 208 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:39 376 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:40 303 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:41 376 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:42 267 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:43 163 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:44 260 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:45 272 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:46 172 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:47 058 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:48 059 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:49 208 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:50 219 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:51 200 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 08:59:52 143 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:11:51 470 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:11:52 327 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:11:53 288 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:11:54 417 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:11:55 605 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:11:56 570 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:11:57 575 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:11:58 684 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:01 183 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:02 036 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:03 134 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:04 277 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:05 278 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:06 379 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:07 432 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:08 431 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:09 621 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:10 521 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:11 627 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:12 511 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:13 549 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:14 535 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:15 697 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:16 802 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:17 802 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:18 962 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:19 869 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:20 825 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:21 778 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:22 833 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:23 847 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:25 011 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:25 963 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:27 064 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:27 914 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:28 920 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:30 018 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:30 961 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:32 156 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:33 254 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:34 459 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:35 628 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:36 692 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:37 738 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:38 570 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:39 423 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:40 659 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:41 673 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:42 622 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:43 468 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:44 531 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:45 503 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:46 510 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:47 687 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:48 700 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:49 760 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:50 617 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:51 642 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:52 494 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:53 444 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:54 565 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:55 463 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:56 524 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:57 701 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:58 806 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:12:59 979 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:01 146 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:02 266 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:03 436 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:04 394 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:05 405 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:06 307 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:07 518 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:08 416 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:09 418 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:13:10 436 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Error while fetching metadata with correlation id 181699 : {goods_1.0.0_event=LEADER_NOT_AVAILABLE}
+03-07 09:13:10 549 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Error while fetching metadata with correlation id 181700 : {goods_1.0.0_event=LEADER_NOT_AVAILABLE}
+03-07 09:13:10 661 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Error while fetching metadata with correlation id 181701 : {goods_1.0.0_event=LEADER_NOT_AVAILABLE}
+03-07 09:13:10 772 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Error while fetching metadata with correlation id 181702 : {goods_1.0.0_event=LEADER_NOT_AVAILABLE}
+03-07 09:13:10 896 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:10 925 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:10 925 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 030 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 033 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 033 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 134 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 149 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 149 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 252 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 268 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 269 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 369 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 373 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 373 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 475 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 479 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 479 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 580 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 582 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 583 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 698 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 705 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 706 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 808 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 818 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 818 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:11 921 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:11 925 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:11 925 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:12 028 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:12 032 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:12 033 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:12 135 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:12 137 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:12 137 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:12 246 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:12 249 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:12 249 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:12 353 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:12 356 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:12 356 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:12 458 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:12 460 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:13:12 461 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:13:12 565 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:13:12 573 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: The coordinator is not aware of this member.
+03-07 09:13:12 615 Thread-1 ERROR - commit failed
+org.apache.kafka.clients.consumer.CommitFailedException: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:786) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:734) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:808) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:788) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture$1.onSuccess(RequestFuture.java:204) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess(RequestFuture.java:167) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.complete(RequestFuture.java:127) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.fireCompletion(ConsumerNetworkClient.java:506) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.firePendingCompletedRequests(ConsumerNetworkClient.java:353) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:268) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.commitOffsetsSync(ConsumerCoordinator.java:600) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.commitSync(KafkaConsumer.java:1203) ~[kafka-clients-1.0.0.jar:na]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:88) ~[event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-07 09:13:12 617 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 09:13:12 617 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 09:13:12 746 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 6
+03-07 09:13:12 748 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 09:51:07 493 kafka-coordinator-heartbeat-thread | eventConsumer111 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:51:07 625 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:51:07 626 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:51:07 735 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:53:53 438 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:53:53 509 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:53:53 616 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:53:53 835 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:53:54 210 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:53:55 064 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:53:56 233 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:53:57 089 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:53:58 042 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:53:59 209 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:00 384 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:01 467 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:02 473 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:03 429 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:04 548 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:05 507 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:06 733 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:07 590 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:08 445 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:09 404 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:10 414 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:11 313 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:12 421 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:13 275 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:14 447 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:15 358 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:16 318 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:17 287 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:18 295 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:19 531 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:20 710 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:21 619 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:22 470 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:23 571 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:24 404 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:25 461 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:26 440 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:27 330 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:28 382 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 09:54:29 489 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:29 506 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:29 507 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:29 609 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:29 611 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:29 612 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:29 712 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:29 716 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:29 716 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:29 818 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:29 821 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:29 821 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:29 927 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:29 929 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:29 929 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:30 030 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:30 032 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:30 033 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:30 136 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:30 138 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:30 138 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:30 239 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:30 241 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:30 241 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:30 344 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:30 346 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:30 346 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:30 447 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:30 450 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:30 450 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:30 551 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 09:54:30 553 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer111] Offset commit failed on partition goods_1.0.0_event-0 at offset 30: This is not the correct coordinator.
+03-07 09:54:30 554 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 09:54:30 659 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 12:04:10 485 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(goods_1.0.0_event)
+03-07 12:04:10 564 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-07 12:04:10 808 main INFO - Kafka version : 1.0.0
+03-07 12:04:10 808 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 12:04:10 811 main INFO - there are 1 methods have @KafkaListener on This bean 
+03-07 12:04:10 815 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(goods_1.0.0_event)
+03-07 12:04:10 818 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03-07 12:04:10 829 main INFO - Kafka version : 1.0.0
+03-07 12:04:10 829 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 12:04:10 830 main INFO - there are 1 methods have @BinlogListener on This bean 
+03-07 12:04:10 830 main INFO - ready to start consumer ,event consumer size 1, binlog consumer size 1
+03-07 12:04:10 832 Thread-1 INFO - [KafkaConsumer][eventConsumer111:goods_1.0.0_event][run] 
+03-07 12:04:10 834 Thread-2 INFO - [KafkaConsumer][eventConsumer111:goods_1.0.0_event][run] 
+03-07 12:04:10 848 main INFO - Spring服务启动成功!
+03-07 12:04:11 016 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 12:04:11 019 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 12:04:11 019 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] (Re-)joining group
+03-07 12:04:11 020 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 12:04:11 023 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 12:04:11 023 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:04:11 423 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 12:04:11 426 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:04:11 439 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 7
+03-07 12:04:11 439 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Successfully joined group with generation 7
+03-07 12:04:11 439 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 7
+03-07 12:04:11 440 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Setting newly assigned partitions []
+03-07 12:04:11 441 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 12:04:11 453 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions []
+03-07 12:05:55 234 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 12:05:55 288 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-07 12:05:55 690 main INFO - Kafka version : 1.0.0
+03-07 12:05:55 690 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 12:05:55 693 main INFO - there are 1 methods have @KafkaListener on This bean 
+03-07 12:05:55 695 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 12:05:55 696 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03-07 12:05:55 707 main INFO - Kafka version : 1.0.0
+03-07 12:05:55 707 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 12:05:55 707 main INFO - there are 1 methods have @BinlogListener on This bean 
+03-07 12:05:55 707 main INFO - ready to start consumer ,event consumer size 1, binlog consumer size 1
+03-07 12:05:55 710 Thread-1 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 12:05:55 713 Thread-2 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 12:05:55 722 main INFO - Spring服务启动成功!
+03-07 12:05:55 879 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 12:05:55 881 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 12:05:55 882 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 12:05:55 882 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] (Re-)joining group
+03-07 12:05:55 883 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 12:05:55 884 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:05:56 541 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 12:05:56 542 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:06:00 948 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 8
+03-07 12:06:00 950 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [Binlog-0]
+03-07 12:06:00 950 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 8
+03-07 12:06:00 950 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 12:06:00 951 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Successfully joined group with generation 8
+03-07 12:06:00 951 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Setting newly assigned partitions []
+03-07 12:06:04 201 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 5
+03-07 12:06:04 201 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer111, topic: Binlog
+03-07 12:06:04 213 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer111, topic: Binlog
+03-07 12:06:34 307 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 6
+03-07 12:06:34 308 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer111, topic: Binlog
+03-07 12:06:34 308 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer111, topic: Binlog
+03-07 12:28:23 823 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 7
+03-07 12:28:23 829 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer111, topic: Binlog
+03-07 12:28:23 830 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer111, topic: Binlog
+03-07 12:29:48 042 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 12:29:48 048 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:29:48 051 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 9
+03-07 12:29:48 051 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 12:30:35 895 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 12:30:35 969 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-07 12:30:36 333 main INFO - Kafka version : 1.0.0
+03-07 12:30:36 334 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 12:30:43 369 main INFO - there are 1 methods have @KafkaListener on This bean 
+03-07 12:30:53 625 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 12:30:53 640 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03-07 12:30:53 684 main INFO - Kafka version : 1.0.0
+03-07 12:30:53 685 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 12:31:02 306 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 12:31:02 306 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:31:02 314 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 10
+03-07 12:31:02 314 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 12:31:07 200 main INFO - there are 1 methods have @BinlogListener on This bean 
+03-07 12:31:07 201 main INFO - ready to start consumer ,event consumer size 1, binlog consumer size 1
+03-07 12:31:07 206 Thread-1 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 12:31:09 658 Thread-2 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 12:31:11 981 main INFO - Spring服务启动成功!
+03-07 12:31:12 287 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 12:31:12 287 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 12:31:12 294 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 12:31:12 294 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 12:31:12 295 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:31:12 295 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] (Re-)joining group
+03-07 12:31:14 324 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 12:31:14 325 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:31:14 359 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 11
+03-07 12:31:14 359 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 12:31:14 359 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 11
+03-07 12:31:14 360 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Successfully joined group with generation 11
+03-07 12:31:14 364 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer111] Setting newly assigned partitions []
+03-07 12:31:14 366 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [Binlog-0]
+03-07 12:33:54 271 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 12:33:54 313 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03-07 12:33:54 635 main INFO - Kafka version : 1.0.0
+03-07 12:33:54 636 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 12:33:54 643 main INFO - there are 1 methods have @BinlogListener on This bean 
+03-07 12:33:54 648 main INFO - ready to start consumer ,event consumer size 0, binlog consumer size 1
+03-07 12:33:54 651 Thread-1 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 12:33:54 674 main INFO - Spring服务启动成功!
+03-07 12:33:54 854 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 12:33:54 860 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 12:33:54 861 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:33:56 538 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 12:33:56 539 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 12:33:59 431 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 12
+03-07 12:33:59 432 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 12:33:59 432 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 12
+03-07 12:33:59 433 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [Binlog-0]
+03-07 12:34:05 564 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 8
+03-07 12:34:05 566 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@66f7b07, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 14:33:59 279 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 14:33:59 281 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:33:59 285 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 13
+03-07 14:33:59 285 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 14:35:24 044 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 14:35:24 087 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03-07 14:35:24 249 main INFO - Kafka version : 1.0.0
+03-07 14:35:24 249 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 14:35:24 251 main INFO - there are 1 methods have @BinlogListener on This bean 
+03-07 14:35:24 260 main INFO - ready to start consumer ,event consumer size 0, binlog consumer size 1
+03-07 14:35:24 263 Thread-1 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 14:35:24 277 main INFO - Spring服务启动成功!
+03-07 14:35:24 506 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 14:35:24 513 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 14:35:24 513 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:35:26 368 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 14:35:26 369 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:35:26 614 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 14
+03-07 14:35:26 614 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 14:35:26 614 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 14
+03-07 14:35:26 617 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [Binlog-0]
+03-07 14:35:38 624 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 14:35:38 624 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:35:38 626 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 15
+03-07 14:35:38 627 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 14:35:41 626 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 14:35:41 719 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-07 14:35:41 959 main INFO - Kafka version : 1.0.0
+03-07 14:35:41 959 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 14:35:41 962 main INFO - there are 0 methods have @KafkaListener on This bean 
+03-07 14:35:41 963 main INFO - ready to start consumer ,event consumer size 1, binlog consumer size 0
+03-07 14:35:41 965 Thread-1 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 14:35:42 016 main INFO - Spring服务启动成功!
+03-07 14:35:42 125 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 14:35:42 127 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 14:35:42 127 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:35:44 629 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 14:35:44 629 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:35:44 688 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 16
+03-07 14:35:44 689 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 14:35:44 689 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 16
+03-07 14:35:44 691 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [Binlog-0]
+03-07 14:36:08 715 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 14:36:08 715 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:36:08 717 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 17
+03-07 14:36:08 717 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 14:37:40 068 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 14:37:40 174 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03-07 14:37:40 370 main INFO - Kafka version : 1.0.0
+03-07 14:37:40 371 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 14:37:40 372 main INFO - there are 1 methods have @BinlogListener on This bean 
+03-07 14:37:40 376 main INFO - ready to start consumer ,event consumer size 0, binlog consumer size 1
+03-07 14:37:40 385 Thread-1 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 14:37:40 400 main INFO - Spring服务启动成功!
+03-07 14:37:40 565 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 14:37:40 568 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 14:37:40 568 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:37:41 819 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions [goods_1.0.0_event-0]
+03-07 14:37:41 829 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 14:37:42 119 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 18
+03-07 14:37:42 120 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [goods_1.0.0_event-0]
+03-07 14:37:42 120 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 18
+03-07 14:37:42 122 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [Binlog-0]
+03-07 14:53:42 100 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 14:53:42 107 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 14:53:42 160 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:42 162 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:42 320 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:42 328 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:42 540 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:42 590 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:42 970 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:43 878 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:44 944 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:45 916 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:46 874 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:47 886 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:49 051 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:49 957 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:51 176 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:52 104 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:53 105 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:53 938 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:54 778 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:55 825 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:56 879 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:57 825 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:53:58 961 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:00 086 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:00 961 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:02 125 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:03 155 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:04 123 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:05 202 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:06 193 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:07 232 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:08 272 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:09 316 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:10 415 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:11 309 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:12 316 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:13 536 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:14 382 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:15 464 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:16 441 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:17 395 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:18 450 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:19 457 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:20 504 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:21 664 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:22 568 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:23 468 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:24 633 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:25 653 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:26 817 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:27 925 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:29 035 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:30 005 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:30 955 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:32 184 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:33 410 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:34 360 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:35 260 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:36 427 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:37 275 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:38 123 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:39 190 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:40 251 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:41 417 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:42 315 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:43 543 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:44 561 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:45 461 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:46 577 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:47 590 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:48 646 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:49 542 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:50 763 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:51 669 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:52 723 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:53 682 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:54 860 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:56 016 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:57 077 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:58 022 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:54:59 134 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:00 194 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:01 254 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:02 205 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:03 259 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:04 427 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:05 586 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:06 698 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:07 666 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:08 782 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:09 916 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:10 795 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:11 634 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:12 622 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:13 661 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:14 701 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:15 591 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:16 585 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:17 668 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:18 554 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:19 444 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:20 283 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:21 508 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:22 524 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:23 542 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:24 714 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 14:55:25 842 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 15:21:19 515 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 15:21:19 563 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03-07 15:21:19 864 main INFO - Kafka version : 1.0.0
+03-07 15:21:19 865 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 15:21:19 867 main INFO - there are 1 methods have @BinlogListener on This bean 
+03-07 15:21:19 869 main INFO - ready to start consumer ,event consumer size 0, binlog consumer size 1
+03-07 15:21:19 880 Thread-1 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 15:21:19 906 main INFO - Spring服务启动成功!
+03-07 15:21:20 048 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 15:21:20 052 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 15:21:20 052 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 15:21:20 085 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 20
+03-07 15:21:20 088 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [Binlog-0]
+03-07 15:21:20 207 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 9
+03-07 15:21:20 209 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 15:21:20 210 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 10
+03-07 15:21:20 214 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 15:21:39 637 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 11
+03-07 15:21:39 638 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 15:22:17 800 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 12
+03-07 15:22:17 800 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 15:35:05 862 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 13
+03-07 15:35:05 864 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:19:00 845 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 14
+03-07 16:19:00 847 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:19:47 020 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 15
+03-07 16:19:47 021 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:19:49 054 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 16
+03-07 16:19:49 054 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:36 627 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 17
+03-07 16:22:36 627 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:37 651 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 18
+03-07 16:22:37 652 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:37 659 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 19
+03-07 16:22:37 660 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:37 666 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 20
+03-07 16:22:37 667 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:37 667 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 21
+03-07 16:22:37 667 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:37 677 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 22
+03-07 16:22:37 678 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:38 697 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 23
+03-07 16:22:38 699 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:38 699 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 24
+03-07 16:22:38 700 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 16:22:38 707 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 25
+03-07 16:22:38 707 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@529f5218, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 18:34:35 572 main INFO - [KafkaConsumer] [init] kafkaConnect(127.0.0.1:9092) groupId(eventConsumer111) topic(Binlog)
+03-07 18:34:35 619 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer111
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03-07 18:34:35 865 main INFO - Kafka version : 1.0.0
+03-07 18:34:35 866 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-07 18:34:35 867 main INFO - there are 1 methods have @BinlogListener on This bean 
+03-07 18:34:35 871 main INFO - ready to start consumer ,event consumer size 0, binlog consumer size 1
+03-07 18:34:35 874 Thread-1 INFO - [KafkaConsumer][eventConsumer111:Binlog][run] 
+03-07 18:34:35 903 main INFO - Spring服务启动成功!
+03-07 18:34:36 042 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 18:34:36 044 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Revoking previously assigned partitions []
+03-07 18:34:36 044 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] (Re-)joining group
+03-07 18:34:36 062 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Successfully joined group with generation 22
+03-07 18:34:36 063 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Setting newly assigned partitions [Binlog-0]
+03-07 18:35:10 326 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 26
+03-07 18:35:10 326 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@7f44a547, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 18:35:58 508 Thread-1 INFO - receive message,ready to process, topic: Binlog ,partition: 0 ,offset: 27
+03-07 18:35:58 509 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@7f44a547, method: public void com.today.event.consumer.EventConsumer.binlogListener(java.lang.String)
+03-07 19:45:20 086 kafka-coordinator-heartbeat-thread | eventConsumer111 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 19:45:20 221 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 19:45:20 224 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 19:45:20 334 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Discovered coordinator 172.26.1.46:9092 (id: 2147483645 rack: null)
+03-07 21:43:21 076 kafka-coordinator-heartbeat-thread | eventConsumer111 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer111] Marking the coordinator 172.26.1.46:9092 (id: 2147483645 rack: null) dead
+03-07 22:26:28 939 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:27:47 168 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:29:03 742 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:30:20 455 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:31:37 172 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:32:53 703 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:34:10 365 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:35:26 936 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:36:43 493 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:37:59 902 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:39:16 407 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:40:32 833 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:41:49 130 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:43:05 630 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:44:21 981 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:45:38 418 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:46:54 753 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:48:11 154 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:49:27 475 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:50:44 167 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:52:01 005 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:53:17 688 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:54:34 238 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:55:50 782 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:57:07 168 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:58:23 826 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 22:59:40 410 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 23:00:56 929 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 23:02:13 474 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 23:03:29 980 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.
+03-07 23:31:01 448 Thread-1 WARN - [Consumer clientId=consumer-1, groupId=eventConsumer111] Connection to node 2 could not be established. Broker may not be available.

@@ -1,0 +1,1535 @@
+03-05 11:49:01 730 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 11:49:01 810 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 11:49:01 849 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 11:49:01 882 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 11:49:02 326 main INFO - Kafka version : 1.0.0
+03-05 11:49:02 326 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 11:49:02 427 main INFO - ready to start consumer ,consumer size 1
+03-05 11:49:02 432 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 11:49:02 440 main INFO - Spring服务启动成功!
+03-05 11:49:02 601 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 11:49:02 604 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 11:49:02 604 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 11:49:02 622 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 1
+03-05 11:49:02 624 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 11:49:43 451 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 24
+03-05 11:49:43 451 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:49:43 460 Thread-1 INFO - fetch event body: 
+03-05 11:49:43 735 Thread-1 INFO - dealMessage:event RegisteredEvent(123,100)
+03-05 11:49:43 735 Thread-1 INFO - Subscribed RegisteredEvent ==> RegisteredEvent(123,100)
+03-05 11:49:43 735 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@77c3c04a, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 11:49:43 736 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:49:43 736 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:49:43 736 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:49:43 736 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:49:43 757 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 26
+03-05 11:49:43 757 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:49:43 757 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:49:43 757 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:49:43 758 Thread-1 INFO - fetch event body: 
+03-05 11:49:43 758 Thread-1 INFO - dealMessage:event ActivedEvent(124,100)
+03-05 11:49:43 758 Thread-1 INFO - Subscribed RegisteredEvent ==> ActivedEvent(124,100)
+03-05 11:49:43 759 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@77c3c04a, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 11:49:43 759 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:49:43 759 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:51:00 628 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 11:51:00 662 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 11:51:00 679 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 11:51:00 700 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 11:51:00 957 main INFO - Kafka version : 1.0.0
+03-05 11:51:00 957 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 11:51:00 996 main INFO - ready to start consumer ,consumer size 1
+03-05 11:51:01 000 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 11:51:01 018 main INFO - Spring服务启动成功!
+03-05 11:51:01 383 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 11:51:01 385 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 11:51:01 385 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 11:51:04 497 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 2
+03-05 11:51:04 498 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 11:51:10 107 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 28
+03-05 11:51:10 107 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:51:10 115 Thread-1 INFO - fetch event body: 
+03-05 11:51:10 316 Thread-1 INFO - dealMessage:event RegisteredEvent(123,100)
+03-05 11:51:10 317 Thread-1 INFO - Subscribed RegisteredEvent ==> RegisteredEvent(123,100)
+03-05 11:51:10 317 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@324b1182, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 11:51:10 317 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:51:10 317 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:51:10 318 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:51:10 318 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:51:10 323 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 30
+03-05 11:51:10 323 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:51:10 323 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:51:10 324 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:51:10 325 Thread-1 INFO - fetch event body: 
+03-05 11:51:10 326 Thread-1 INFO - dealMessage:event ActivedEvent(124,100)
+03-05 11:51:10 327 Thread-1 INFO - Subscribed RegisteredEvent ==> ActivedEvent(124,100)
+03-05 11:51:10 328 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@324b1182, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 11:51:10 328 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:51:10 329 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:52:25 884 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 11:52:25 904 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 11:52:25 924 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 11:52:25 969 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 11:52:26 205 main INFO - Kafka version : 1.0.0
+03-05 11:52:26 205 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 11:52:26 232 main INFO - ready to start consumer ,consumer size 1
+03-05 11:52:26 234 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 11:52:26 244 main INFO - Spring服务启动成功!
+03-05 11:52:26 400 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 11:52:26 403 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 11:52:26 403 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 11:52:31 460 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 3
+03-05 11:52:31 461 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 11:53:20 753 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 32
+03-05 11:53:20 754 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:53:20 766 Thread-1 INFO - fetch event body: 
+03-05 11:53:20 986 Thread-1 INFO - dealMessage:event RegisteredEvent(123,100)
+03-05 11:53:20 987 Thread-1 INFO - =========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,100)
+03-05 11:53:20 987 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@6bf1145a, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 11:53:20 988 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:53:20 990 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:53:20 991 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:53:20 991 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:53:21 068 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 34
+03-05 11:53:21 069 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:53:21 069 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:53:21 069 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:53:21 070 Thread-1 INFO - fetch event body: 
+03-05 11:53:21 071 Thread-1 INFO - dealMessage:event ActivedEvent(124,100)
+03-05 11:53:21 071 Thread-1 INFO - =========> 订阅到了消息  RegisteredEvent ==> ActivedEvent(124,100)
+03-05 11:53:21 071 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@6bf1145a, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 11:53:21 071 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:53:21 072 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:54:03 385 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 11:54:03 406 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 11:54:03 419 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 11:54:03 442 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 11:54:03 653 main INFO - Kafka version : 1.0.0
+03-05 11:54:03 654 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 11:54:03 706 main INFO - ready to start consumer ,consumer size 1
+03-05 11:54:03 712 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 11:54:03 721 main INFO - Spring服务启动成功!
+03-05 11:54:03 909 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 11:54:03 911 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 11:54:03 911 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 11:54:08 860 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 4
+03-05 11:54:08 861 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 11:54:10 326 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 36
+03-05 11:54:10 326 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:54:10 335 Thread-1 INFO - fetch event body: 
+03-05 11:54:10 546 Thread-1 INFO - dealMessage:event RegisteredEvent(123,100)
+03-05 11:54:10 546 Thread-1 INFO - subscribeRegisteredEvent方法=========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,100)
+03-05 11:54:10 546 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@367b8cee, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 11:54:10 547 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:54:10 547 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:54:10 547 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:54:10 547 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:54:10 554 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 38
+03-05 11:54:10 555 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:54:10 555 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:54:10 555 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:54:10 556 Thread-1 INFO - fetch event body: 
+03-05 11:54:10 557 Thread-1 INFO - dealMessage:event ActivedEvent(124,100)
+03-05 11:54:10 557 Thread-1 INFO - subscribeActivedEvent方法=========> 订阅到了消息  RegisteredEvent ==> ActivedEvent(124,100)
+03-05 11:54:10 557 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@367b8cee, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 11:54:10 557 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:54:10 557 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:56:30 311 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 40
+03-05 11:56:30 316 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:56:30 316 Thread-1 INFO - fetch event body: 
+03-05 11:56:30 317 Thread-1 INFO - dealMessage:event RegisteredEvent(123,200)
+03-05 11:56:30 317 Thread-1 INFO - subscribeRegisteredEvent方法=========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,200)
+03-05 11:56:30 317 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@367b8cee, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 11:56:30 317 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:56:30 317 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:56:30 317 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:56:30 318 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 11:56:30 523 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 42
+03-05 11:56:30 523 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:56:30 523 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 11:56:30 524 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:56:30 524 Thread-1 INFO - fetch event body: 
+03-05 11:56:30 524 Thread-1 INFO - dealMessage:event ActivedEvent(124,200)
+03-05 11:56:30 524 Thread-1 INFO - subscribeActivedEvent方法=========> 订阅到了消息  RegisteredEvent ==> ActivedEvent(124,200)
+03-05 11:56:30 524 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@367b8cee, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 11:56:30 524 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 11:56:30 524 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 12:05:10 422 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 12:05:10 454 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 12:05:10 471 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 12:05:10 513 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 12:05:10 679 main INFO - Kafka version : 1.0.0
+03-05 12:05:10 679 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 12:05:10 713 main INFO - ready to start consumer ,consumer size 1
+03-05 12:05:10 717 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 12:05:10 756 main INFO - Spring服务启动成功!
+03-05 12:05:10 886 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 12:05:10 888 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 12:05:10 889 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 12:05:16 283 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 5
+03-05 12:05:16 294 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 14:10:43 931 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 14:10:43 963 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 14:10:43 985 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 14:10:44 018 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 14:10:44 285 main INFO - Kafka version : 1.0.0
+03-05 14:10:44 285 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 14:10:44 302 main INFO - ready to start consumer ,consumer size 1
+03-05 14:10:44 304 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 14:10:44 308 main INFO - Spring服务启动成功!
+03-05 14:10:44 691 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 14:10:44 693 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 14:10:44 694 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 14:10:44 764 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 7
+03-05 14:10:44 765 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 14:13:13 604 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 14:13:13 637 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 14:13:13 652 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 14:13:13 687 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 14:13:13 935 main INFO - Kafka version : 1.0.0
+03-05 14:13:13 935 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 14:13:13 957 main INFO - ready to start consumer ,consumer size 1
+03-05 14:13:13 959 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 14:13:13 969 main INFO - Spring服务启动成功!
+03-05 14:13:14 365 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 14:13:14 368 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 14:13:14 368 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 14:13:18 544 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 8
+03-05 14:13:18 546 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 14:13:22 910 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 14:13:22 933 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 14:13:22 951 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 14:13:22 990 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 14:13:23 203 main INFO - Kafka version : 1.0.0
+03-05 14:13:23 203 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 14:13:23 244 main INFO - ready to start consumer ,consumer size 1
+03-05 14:13:49 220 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 14:13:49 231 main INFO - Spring服务启动成功!
+03-05 14:13:49 661 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 14:13:49 663 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 14:13:49 664 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 14:13:49 968 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 10
+03-05 14:13:49 969 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 14:15:03 474 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 14:15:03 497 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 14:15:03 521 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer1) topic(user_1.0.0_event)
+03-05 14:15:03 562 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer1
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 14:15:03 740 main INFO - Kafka version : 1.0.0
+03-05 14:15:03 740 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 14:15:03 819 main INFO - ready to start consumer ,consumer size 1
+03-05 14:15:05 289 Thread-1 INFO - [KafkaConsumer][eventConsumer1:user_1.0.0_event][run] 
+03-05 14:15:05 296 main INFO - Spring服务启动成功!
+03-05 14:15:05 455 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 14:15:05 458 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions []
+03-05 14:15:05 459 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 14:15:05 499 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 1
+03-05 14:15:05 501 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 14:17:50 258 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 44
+03-05 14:17:50 259 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:17:53 580 Thread-1 INFO - fetch event body: 
+03-05 14:17:53 813 Thread-1 INFO - dealMessage:event ActivedEvent(123,213)
+03-05 14:17:53 819 Thread-1 ERROR - 参数不合法，当前方法虽然订阅此topic，但是不接收当前事件
+java.lang.IllegalArgumentException: argument type mismatch
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at com.today.eventbus.MsgKafkaConsumer.dealMessage(MsgKafkaConsumer.java:132) [event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:85) [event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-05 14:17:53 820 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:17:55 645 Thread-1 INFO - fetch event body: 
+03-05 14:17:55 645 Thread-1 INFO - dealMessage:event RegisteredEvent(123,213)
+03-05 14:17:55 646 Thread-1 INFO - subscribeRegisteredEvent方法=========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,213)
+03-05 14:17:55 646 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@53703966, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 14:17:55 647 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:17:55 647 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 14:17:55 654 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 46
+03-05 14:17:55 654 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:17:55 654 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 14:17:55 654 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:17:55 655 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 14:17:55 655 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:17:55 655 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 14:19:18 090 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.EventListenerMethodProcessor
+03-05 14:19:18 112 main INFO - No @KafkaListener annotations found on bean type: class org.springframework.context.event.DefaultEventListenerFactory
+03-05 14:19:18 135 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer1) topic(user_1.0.0_event)
+03-05 14:19:18 158 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer1
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 14:19:18 291 main INFO - Kafka version : 1.0.0
+03-05 14:19:18 291 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 14:19:18 308 main INFO - ready to start consumer ,consumer size 1
+03-05 14:19:18 311 Thread-1 INFO - [KafkaConsumer][eventConsumer1:user_1.0.0_event][run] 
+03-05 14:19:18 315 main INFO - Spring服务启动成功!
+03-05 14:19:18 478 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 14:19:18 481 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions []
+03-05 14:19:18 481 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 14:19:23 880 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 2
+03-05 14:19:23 881 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 14:19:30 149 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 48
+03-05 14:19:30 149 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:19:30 158 Thread-1 INFO - fetch event body: 
+03-05 14:19:30 360 Thread-1 INFO - dealMessage:event RegisteredEvent(123,21300)
+03-05 14:19:30 360 Thread-1 INFO - subscribeRegisteredEvent方法=========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,21300)
+03-05 14:19:30 360 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@47f1ab5e, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 14:19:30 360 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:19:30 360 Thread-1 INFO - fetch event body: 
+03-05 14:19:30 361 Thread-1 INFO - dealMessage:event RegisteredEvent(123,21300)
+03-05 14:19:30 361 Thread-1 INFO - subscribeActivedEvent方法=========> 订阅到了消息  RegisteredEvent ==> RegisteredEvent(123,21300)
+03-05 14:19:30 361 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@47f1ab5e, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 14:19:30 361 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:19:30 361 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.RegisteredEvent 
+03-05 14:19:30 369 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 50
+03-05 14:19:30 369 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:19:30 369 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 14:19:30 369 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:19:30 369 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.RegisteredEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 14:19:30 370 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer1, topic: user_1.0.0_event
+03-05 14:19:30 370 Thread-1 INFO - 方法 [ public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent) ] 不接收当前收到的消息类型 com.github.dapeng.user.scala.events.ActivedEvent 
+03-05 14:20:03 851 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer1] Offset commit failed on partition user_1.0.0_event-0 at offset 52: The coordinator is not aware of this member.
+03-05 14:20:03 851 kafka-coordinator-heartbeat-thread | eventConsumer1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Marking the coordinator 10.10.10.38:9092 (id: 2147483645 rack: null) dead
+03-05 14:20:03 861 Thread-1 ERROR - commit failed
+org.apache.kafka.clients.consumer.CommitFailedException: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:786) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:734) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:808) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:788) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture$1.onSuccess(RequestFuture.java:204) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess(RequestFuture.java:167) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.complete(RequestFuture.java:127) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.fireCompletion(ConsumerNetworkClient.java:506) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.firePendingCompletedRequests(ConsumerNetworkClient.java:353) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:268) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.commitOffsetsSync(ConsumerCoordinator.java:600) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.commitSync(KafkaConsumer.java:1203) ~[kafka-clients-1.0.0.jar:na]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:90) ~[event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-05 14:20:03 938 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 14:20:03 938 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions [user_1.0.0_event-0]
+03-05 14:20:03 939 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 14:20:04 811 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 4
+03-05 14:20:04 812 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 14:36:32 044 kafka-coordinator-heartbeat-thread | eventConsumer1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Marking the coordinator 10.10.10.38:9092 (id: 2147483645 rack: null) dead
+03-05 14:36:32 150 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 14:36:32 210 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer1] Offset commit failed on partition user_1.0.0_event-0 at offset 52: The coordinator is not aware of this member.
+03-05 14:36:32 212 Thread-1 ERROR - commit failed
+org.apache.kafka.clients.consumer.CommitFailedException: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:786) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:734) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:808) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:788) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture$1.onSuccess(RequestFuture.java:204) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess(RequestFuture.java:167) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.complete(RequestFuture.java:127) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.fireCompletion(ConsumerNetworkClient.java:506) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.firePendingCompletedRequests(ConsumerNetworkClient.java:353) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:268) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.commitOffsetsSync(ConsumerCoordinator.java:600) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.commitSync(KafkaConsumer.java:1203) ~[kafka-clients-1.0.0.jar:na]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:90) ~[event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-05 14:36:32 212 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions [user_1.0.0_event-0]
+03-05 14:36:32 213 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 14:36:32 228 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 6
+03-05 14:36:32 229 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 15:12:17 056 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer1] Offset commit failed on partition user_1.0.0_event-0 at offset 52: The coordinator is not aware of this member.
+03-05 15:12:17 056 kafka-coordinator-heartbeat-thread | eventConsumer1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Marking the coordinator 10.10.10.38:9092 (id: 2147483645 rack: null) dead
+03-05 15:12:17 063 Thread-1 ERROR - commit failed
+org.apache.kafka.clients.consumer.CommitFailedException: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:786) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:734) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:808) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:788) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture$1.onSuccess(RequestFuture.java:204) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess(RequestFuture.java:167) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.complete(RequestFuture.java:127) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.fireCompletion(ConsumerNetworkClient.java:506) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.firePendingCompletedRequests(ConsumerNetworkClient.java:353) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:268) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.commitOffsetsSync(ConsumerCoordinator.java:600) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.commitSync(KafkaConsumer.java:1203) ~[kafka-clients-1.0.0.jar:na]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:90) ~[event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-05 15:12:31 190 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 15:12:31 190 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions [user_1.0.0_event-0]
+03-05 15:12:31 191 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 15:12:31 485 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 8
+03-05 15:12:31 485 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 15:17:21 752 kafka-coordinator-heartbeat-thread | eventConsumer1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Marking the coordinator 10.10.10.38:9092 (id: 2147483645 rack: null) dead
+03-05 15:17:21 752 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer1] Offset commit failed on partition user_1.0.0_event-0 at offset 52: The coordinator is not aware of this member.
+03-05 15:17:21 756 Thread-1 ERROR - commit failed
+org.apache.kafka.clients.consumer.CommitFailedException: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:786) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:734) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:808) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:788) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture$1.onSuccess(RequestFuture.java:204) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess(RequestFuture.java:167) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.complete(RequestFuture.java:127) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.fireCompletion(ConsumerNetworkClient.java:506) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.firePendingCompletedRequests(ConsumerNetworkClient.java:353) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:268) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.commitOffsetsSync(ConsumerCoordinator.java:600) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.commitSync(KafkaConsumer.java:1203) ~[kafka-clients-1.0.0.jar:na]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:90) ~[event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-05 15:17:23 548 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 15:17:23 548 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions [user_1.0.0_event-0]
+03-05 15:17:23 548 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 15:17:25 593 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 10
+03-05 15:17:25 606 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 15:40:10 682 kafka-coordinator-heartbeat-thread | eventConsumer1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Marking the coordinator 10.10.10.38:9092 (id: 2147483645 rack: null) dead
+03-05 15:40:17 563 kafka-coordinator-heartbeat-thread | eventConsumer1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 15:40:17 602 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer1] Offset commit failed on partition user_1.0.0_event-0 at offset 52: The coordinator is not aware of this member.
+03-05 15:40:17 602 Thread-1 ERROR - commit failed
+org.apache.kafka.clients.consumer.CommitFailedException: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:786) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:734) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:808) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:788) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture$1.onSuccess(RequestFuture.java:204) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess(RequestFuture.java:167) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.complete(RequestFuture.java:127) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.fireCompletion(ConsumerNetworkClient.java:506) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.firePendingCompletedRequests(ConsumerNetworkClient.java:353) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:268) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.commitOffsetsSync(ConsumerCoordinator.java:600) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.commitSync(KafkaConsumer.java:1203) ~[kafka-clients-1.0.0.jar:na]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:90) ~[event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-05 15:40:17 603 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions [user_1.0.0_event-0]
+03-05 15:40:17 603 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 15:40:17 609 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 12
+03-05 15:40:17 609 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 15:53:42 519 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer1] Offset commit failed on partition user_1.0.0_event-0 at offset 52: The coordinator is not aware of this member.
+03-05 15:53:42 519 kafka-coordinator-heartbeat-thread | eventConsumer1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Marking the coordinator 10.10.10.38:9092 (id: 2147483645 rack: null) dead
+03-05 15:53:42 521 Thread-1 ERROR - commit failed
+org.apache.kafka.clients.consumer.CommitFailedException: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:786) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:734) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:808) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:788) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture$1.onSuccess(RequestFuture.java:204) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess(RequestFuture.java:167) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.complete(RequestFuture.java:127) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.fireCompletion(ConsumerNetworkClient.java:506) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.firePendingCompletedRequests(ConsumerNetworkClient.java:353) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:268) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.commitOffsetsSync(ConsumerCoordinator.java:600) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.commitSync(KafkaConsumer.java:1203) ~[kafka-clients-1.0.0.jar:na]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:90) ~[event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-05 15:53:54 806 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 15:53:54 806 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions [user_1.0.0_event-0]
+03-05 15:53:54 807 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 15:53:54 830 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 14
+03-05 15:53:54 832 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 15:58:50 590 Thread-1 ERROR - [Consumer clientId=consumer-1, groupId=eventConsumer1] Offset commit failed on partition user_1.0.0_event-0 at offset 52: The coordinator is not aware of this member.
+03-05 15:58:50 590 kafka-coordinator-heartbeat-thread | eventConsumer1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Marking the coordinator 10.10.10.38:9092 (id: 2147483645 rack: null) dead
+03-05 15:58:50 592 Thread-1 ERROR - commit failed
+org.apache.kafka.clients.consumer.CommitFailedException: Commit cannot be completed since the group has already rebalanced and assigned the partitions to another member. This means that the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time message processing. You can address this either by increasing the session timeout or by reducing the maximum size of batches returned in poll() with max.poll.records.
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:786) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$OffsetCommitResponseHandler.handle(ConsumerCoordinator.java:734) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:808) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator$CoordinatorResponseHandler.onSuccess(AbstractCoordinator.java:788) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture$1.onSuccess(RequestFuture.java:204) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess(RequestFuture.java:167) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.RequestFuture.complete(RequestFuture.java:127) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.fireCompletion(ConsumerNetworkClient.java:506) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.firePendingCompletedRequests(ConsumerNetworkClient.java:353) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:268) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.commitOffsetsSync(ConsumerCoordinator.java:600) ~[kafka-clients-1.0.0.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.commitSync(KafkaConsumer.java:1203) ~[kafka-clients-1.0.0.jar:na]
+	at com.today.eventbus.MsgKafkaConsumer.run(MsgKafkaConsumer.java:90) ~[event-bus_2.12-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+03-05 16:00:15 275 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 16:00:15 281 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Revoking previously assigned partitions [user_1.0.0_event-0]
+03-05 16:00:15 282 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] (Re-)joining group
+03-05 16:00:15 291 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Successfully joined group with generation 16
+03-05 16:00:15 291 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer1] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 17:02:28 406 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 17:02:28 517 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 17:02:28 771 main INFO - Kafka version : 1.0.0
+03-05 17:02:28 771 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 17:02:28 773 main INFO - ready to start consumer ,consumer size 1
+03-05 17:02:28 775 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 17:02:28 789 main INFO - Spring服务启动成功!
+03-05 17:02:28 944 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 17:02:28 947 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 17:02:28 947 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 17:02:28 976 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 12
+03-05 17:02:28 977 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 17:02:29 039 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 44
+03-05 17:02:29 039 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 050 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 051 Thread-1 INFO - fetch event body: 
+03-05 17:02:29 358 Thread-1 INFO - dealMessage:event RegisteredEvent(123,213)
+03-05 17:02:29 358 Thread-1 INFO - subscribeRegisteredEvent方法=========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,213)
+03-05 17:02:29 359 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@2f614cf6, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 17:02:29 359 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 359 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 46
+03-05 17:02:29 359 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 360 Thread-1 INFO - fetch event body: 
+03-05 17:02:29 360 Thread-1 INFO - dealMessage:event ActivedEvent(124,213)
+03-05 17:02:29 360 Thread-1 INFO - subscribeActivedEvent方法=========> 订阅到了消息  RegisteredEvent ==> ActivedEvent(124,213)
+03-05 17:02:29 360 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@2f614cf6, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 17:02:29 360 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 360 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 360 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 48
+03-05 17:02:29 361 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 361 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 361 Thread-1 INFO - fetch event body: 
+03-05 17:02:29 361 Thread-1 INFO - dealMessage:event RegisteredEvent(123,21300)
+03-05 17:02:29 361 Thread-1 INFO - subscribeRegisteredEvent方法=========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,21300)
+03-05 17:02:29 361 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@2f614cf6, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 17:02:29 361 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 361 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 50
+03-05 17:02:29 361 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 362 Thread-1 INFO - fetch event body: 
+03-05 17:02:29 362 Thread-1 INFO - dealMessage:event ActivedEvent(124,21300)
+03-05 17:02:29 362 Thread-1 INFO - subscribeActivedEvent方法=========> 订阅到了消息  RegisteredEvent ==> ActivedEvent(124,21300)
+03-05 17:02:29 362 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@2f614cf6, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 17:02:29 362 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:02:29 362 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:11:50 042 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 17:11:50 110 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 17:11:50 363 main INFO - Kafka version : 1.0.0
+03-05 17:11:50 363 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 17:11:50 365 main INFO - ready to start consumer ,consumer size 1
+03-05 17:11:50 367 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 17:11:50 380 main INFO - Spring服务启动成功!
+03-05 17:11:50 563 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 17:11:50 565 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 17:11:50 566 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 17:11:50 592 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 14
+03-05 17:11:50 593 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 17:17:15 223 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 52
+03-05 17:17:15 228 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:17:15 239 Thread-1 INFO - fetch event body: 
+03-05 17:17:15 441 Thread-1 INFO - dealMessage:event RegisteredEvent(123,90)
+03-05 17:17:15 441 Thread-1 INFO - subscribeRegisteredEvent方法=========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,90)
+03-05 17:17:15 441 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@12c2604c, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 17:17:15 441 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:17:15 441 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:17:15 492 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 54
+03-05 17:17:15 492 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:17:15 493 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:17:15 493 Thread-1 INFO - fetch event body: 
+03-05 17:17:15 493 Thread-1 INFO - dealMessage:event ActivedEvent(124,90)
+03-05 17:17:15 494 Thread-1 INFO - subscribeActivedEvent方法=========> 订阅到了消息  RegisteredEvent ==> ActivedEvent(124,90)
+03-05 17:17:15 494 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@12c2604c, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 17:17:15 494 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:21:50 221 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 56
+03-05 17:21:50 221 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:21:50 221 Thread-1 INFO - fetch event body: 
+03-05 17:21:50 221 Thread-1 INFO - dealMessage:event RegisteredEvent(123,901)
+03-05 17:21:50 222 Thread-1 INFO - subscribeRegisteredEvent方法=========> 订阅到了消息 RegisteredEvent ==> RegisteredEvent(123,901)
+03-05 17:21:50 222 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@12c2604c, method: public void com.today.event.consumer.EventConsumer.subscribeRegisteredEvent(com.github.dapeng.user.scala.events.RegisteredEvent)
+03-05 17:21:50 222 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:21:50 222 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:21:50 261 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 58
+03-05 17:21:50 262 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:21:50 262 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:21:50 263 Thread-1 INFO - fetch event body: 
+03-05 17:21:50 263 Thread-1 INFO - dealMessage:event ActivedEvent(124,901)
+03-05 17:21:50 263 Thread-1 INFO - subscribeActivedEvent方法=========> 订阅到了消息  RegisteredEvent ==> ActivedEvent(124,901)
+03-05 17:21:50 263 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@12c2604c, method: public void com.today.event.consumer.EventConsumer.subscribeActivedEvent(com.github.dapeng.user.scala.events.ActivedEvent)
+03-05 17:21:50 264 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:35:12 165 main INFO - No @KafkaConsumer annotations found on bean type: class com.today.event.consumer.EventConsumer
+03-05 17:35:12 195 main INFO - ready to start consumer ,consumer size 0
+03-05 17:35:12 216 main INFO - Spring服务启动成功!
+03-05 17:35:36 939 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 17:35:37 004 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 17:35:37 314 main INFO - Kafka version : 1.0.0
+03-05 17:35:37 315 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 17:35:37 317 main INFO - ready to start consumer ,consumer size 1
+03-05 17:35:37 322 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 17:35:37 334 main INFO - Spring服务启动成功!
+03-05 17:35:37 515 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 17:35:37 517 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 17:35:37 517 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 17:35:37 558 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 16
+03-05 17:35:37 559 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 17:36:25 670 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 17:36:25 719 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 17:36:25 898 main INFO - Kafka version : 1.0.0
+03-05 17:36:25 898 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 17:36:25 900 main INFO - ready to start consumer ,consumer size 1
+03-05 17:36:25 902 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 17:36:25 923 main INFO - Spring服务启动成功!
+03-05 17:36:26 089 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 17:36:26 091 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 17:36:26 092 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 17:36:26 124 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 18
+03-05 17:36:26 125 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 17:37:13 245 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer) topic(user_1.0.0_event)
+03-05 17:37:13 339 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 17:37:13 554 main INFO - Kafka version : 1.0.0
+03-05 17:37:13 554 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 17:37:13 557 main INFO - [KafkaConsumer] [init] kafkaConnect(10.10.10.38:9092) groupId(eventConsumer2) topic(user_1.0.0_event)
+03-05 17:37:13 558 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.10.10.38:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eventConsumer2
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+03-05 17:37:13 579 main INFO - Kafka version : 1.0.0
+03-05 17:37:13 579 main INFO - Kafka commitId : aaa7af6d4a11b29d
+03-05 17:37:13 580 main INFO - ready to start consumer ,consumer size 2
+03-05 17:37:13 582 Thread-1 INFO - [KafkaConsumer][eventConsumer:user_1.0.0_event][run] 
+03-05 17:37:13 583 Thread-2 INFO - [KafkaConsumer][eventConsumer2:user_1.0.0_event][run] 
+03-05 17:37:13 591 main INFO - Spring服务启动成功!
+03-05 17:37:13 760 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer2] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 17:37:13 760 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Discovered coordinator 10.10.10.38:9092 (id: 2147483645 rack: null)
+03-05 17:37:13 764 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer2] Revoking previously assigned partitions []
+03-05 17:37:13 764 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer2] (Re-)joining group
+03-05 17:37:13 765 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Revoking previously assigned partitions []
+03-05 17:37:13 765 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] (Re-)joining group
+03-05 17:37:13 787 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Successfully joined group with generation 20
+03-05 17:37:13 788 Thread-1 INFO - [Consumer clientId=consumer-1, groupId=eventConsumer] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 17:37:13 792 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer2] Successfully joined group with generation 1
+03-05 17:37:13 793 Thread-2 INFO - [Consumer clientId=consumer-2, groupId=eventConsumer2] Setting newly assigned partitions [user_1.0.0_event-0]
+03-05 17:49:50 155 Thread-1 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 60
+03-05 17:49:50 155 Thread-2 INFO - receive message,ready to process, topic: user_1.0.0_event ,partition: 0 ,offset: 60
+03-05 17:49:50 162 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:49:50 162 Thread-2 INFO - Iterator and process biz message groupId: eventConsumer2, topic: user_1.0.0_event
+03-05 17:49:50 177 Thread-2 INFO - Iterator and process biz message groupId: eventConsumer2, topic: user_1.0.0_event
+03-05 17:49:50 177 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:49:50 177 Thread-2 INFO - Iterator and process biz message groupId: eventConsumer2, topic: user_1.0.0_event
+03-05 17:49:50 177 Thread-1 INFO - Iterator and process biz message groupId: eventConsumer, topic: user_1.0.0_event
+03-05 17:49:50 178 Thread-2 INFO - fetch event body: 
+03-05 17:49:50 178 Thread-1 INFO - fetch event body: 
+03-05 17:49:50 437 Thread-1 INFO - dealMessage:event BlackedEvent(123,190,触发拉黑事件)
+03-05 17:49:50 437 Thread-2 INFO - dealMessage:event BlackedEvent(123,190,触发拉黑事件)
+03-05 17:49:50 437 Thread-1 INFO - subscribeBlackedEvent方法=========> 订阅到了消息  RegisteredEvent ==> BlackedEvent(123,190,触发拉黑事件)
+03-05 17:49:50 437 Thread-2 INFO - 2 subscribeBlackedEvent方法=========> 订阅到了消息  RegisteredEvent ==> BlackedEvent(123,190,触发拉黑事件)
+03-05 17:49:50 437 Thread-2 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer2@647023cc, method: public void com.today.event.consumer.EventConsumer2.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent)
+03-05 17:49:50 437 Thread-1 INFO - invoke message end ,bean: com.today.event.consumer.EventConsumer@2fad9f39, method: public void com.today.event.consumer.EventConsumer.subscribeBlackedEvent(com.github.dapeng.user.scala.events.BlackedEvent)
